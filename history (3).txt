@@ -1,0 +1,22 @@
+   0 vi /tmp/file.txt
+   1 cd /tmp
+   2 ls
+   3 df -h
+   4 df -h | head -3 > file.txt
+   5 cat file.txt
+   6 ls -a
+   7 ls -l
+   8 chmod g+w file.txt
+   9 ls -l
+  10 chmod u-r file.txt
+  11 chmod chmod o+x
+  12 chmod o+x file.txt
+  13 ls -l
+  14 export Name=Daryna
+  15 export VAR=Berlin
+  16 echo $Name $VAR > file.txt
+  17 nano file.txt
+  18 unset VAR
+  19 unset Name
+  20 env
+  21 history > history.txt
